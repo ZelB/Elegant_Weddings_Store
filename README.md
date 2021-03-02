@@ -1,5 +1,6 @@
 # **Elegant Weddings Decor Store**
-Online fictitious website where users shop for wedding decorations
+Online fictitious website where users shop for wedding decorations.
+
 You can view this site in your browser, the site is published at *https://zelb.github.io/Elegant_Weddings_Store/*
 
 ## **1. Project Description**
