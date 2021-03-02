@@ -72,7 +72,7 @@ After you have selected your items from the catalogue page, you click on the “
 	*![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/Shipping.png)
 	
 5. Click on the “Check out” button for an order reference number
-	*![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/ConfirmOrder.png
+	*![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/ConfirmOrder.png)
 	
 
 ### ***8. Credits***
