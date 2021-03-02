@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Used the latest Bootstrap online CSS link reference -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Link own CSS Styles-->
+    <link href="CSS-File/CapstoneProjectIStyle.css" rel="stylesheet" type="text/CSS">
+
+    <title>Wedding Decor Store Bookings</title>
+
+</head>
+
+<body>
+    <!--Page header-->
+    <header id="CompHed">
+        <!--add an image as Logo -->
+        <img src="Web-Images/GreenBack.jpg" class="float-left logo enlarge" alt="Green Logo" width="270" height="200">
+
+        <p id="HeadName1">Elegant Weddings</p>
+        <p id="HeadName2">Decor Shop</p>
+
+    </header>
+
+    <!--Navigation-->
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item ">
+            <a class="nav-link navCol" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link navCol" href="CapstoneProjectI-Cat.html">Catalogue</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navCol" href="CapstoneProjectI-About.html">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navActive" href="CapstoneProjectI-Booking.html">Schedule Meeting</a>
+        </li>
+    </ul>
+    <br>
+
+
+
+
+
+    <!--Schedule a booking Page-->
+
+    <h1>SCHEDULE A MEETING</h1>
+
+    <!--First Grid row to display an image and explain meeting setup -->
+    <div class="row pad">
+        <!--Display Image in row 1-->
+        <div class="col-4 pad">
+            <img src="Web-Images/PinkFlowers.jpg" class="img-thumbnail img-fluid pad imgColFil enlarge"
+                alt="Pink Flowers">
+        </div>
+        <br>
+
+        <!--Display Short description of how the meeting request works-->
+        <div class="col-8 pad">
+            <h4 class="blockquote news">SCHEDULE A MEETING WITH THE TEAM</h4>
+            <br>
+            <p>
+                Elegant Weddings has three office locations across South Africa.
+            </p>
+
+            <p>
+                We recommend visiting the onsite stores to view the catalogue and discuss any custom designs.
+                We have locations in Johannesburg, Durban and Cape Town.
+            </p>
+
+            <p>
+                Please complete the below form to request a meeting with our team at your earliest convenience.
+                We will then be in contact with you to confirm the date and time available.
+            </p>
+
+            <p>
+                Our locations include the following branches:
+                <img src="Web-Images/WedHandsRings.jpg" class="imgFloat enlarge" alt="WedHandsRings" width="40%">
+                <br>
+                <ul>
+                    <li><b>Johannesburg, </b> Krugersdorp, 1739</li>
+                    <li><b>Durban, </b> Balito, 4391</li>
+                    <li><b>Cape Town, </b> Jeffreys Bay, 6330</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <br>
+
+
+    <!--Second Grid row to display Input form with selections-->
+    <h4 class="blockquote news">Please complete the below form and click on Submit</h4>
+
+    <div class="row pad">
+        <!--First Half of 2nd Grid for personal information-->
+        <div class="col-6 pad">
+            <h4 class="lead sideatr">Enter your contact information</h4>
+            <br>
+            <form method=post action="">
+                <p>
+                    <lable for="name">Name:</lable>
+                    <input type=text size=30 maxlength="30" name="name" id="name" placeholder="Your Name">
+                </p>
+
+                <p>
+                    <lable for="surname">Surname:</lable>
+                    <input type=text size=30 maxlength="30" name="surname" id="surname" placeholder="Your Surname">
+                </p>
+
+                <p>
+                    <lable for="cellnum">Cellphone Number:</lable>
+                    <input type=tel size=20 maxlength="15" name="celnum" id="celnum" placeholder="082-123-4567">
+                </p>
+
+                <p>
+                    <lable for="email">Email Address:</lable>
+                    <input type=email size=30 maxlength="50" name="email" id="email" placeholder="email@example.co.za">
+                </p>
+                <br>
+                <!--Submit Button-->
+                <input class="btn btn-primary submit" type="submit" value="Submit" id="infoSubmitBtn">
+                <br>
+            </form>
+
+        </div>
+        <br>
+
+        <!--Second Half of 2nd Grid for Meeting location information-->
+        <div class="col-6 pad">
+            <h4 class="lead sideatr">Enter your preferred meeting location</h4>
+            <br>
+            <fieldset>
+                <p><b>Where would you like to schedule the meeting?</b></p>
+
+                <p class="radio">
+                    <input type="radio" name="jhb" value="jhb"> Johannesburg
+                </p>
+
+                <p class="radio">
+                    <input type="radio" name="dur" value="dur"> Durban
+                </p>
+
+                <p class="radio">
+                    <input type="radio" name="ct" value="ct"> Cape Town
+                </p>
+                <br>
+                <!--Submit Button-->
+                <input class="btn btn-primary submit" type="submit" value="Submit">
+                <br>
+
+            </fieldset>
+
+        </div>
+    </div>
+    <br>
+
+    <br>
+    <footer>
+
+    </footer>
+
+    <!-- jQueary links for the modal pages-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Linking my own JavaScript -->
+    <script src="JavaScript-File/CapstoneProjectII.js" type="text/JavaScript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+/*Make page display 90% of width and be centered - all 4x pages*/
+html {
+    width: 90%;
+    margin: auto;
+}
+
+/* The page header - company name and an image customized - all 4x pages*/
+#CompHed {
+    font-family: 'Brush Script MT', Lucida Handwriting;
+    color: #616A6B;
+    padding: 1%;
+    margin-left: 2%;
+    text-shadow: 3px 2px #CCD1D1
+}
+
+/*Add a shadow around logo image - ALL 4x PAGES*/
+.logo {
+    border-top: darkcyan groove;
+    border-left: darkcyan groove;
+    box-shadow: 5px 7px #cce2cc;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+/*NAV list colors - ALL 4x PAGES*/
+.navActive {
+    color: #E8F8F5;
+    background-color: #85929E;
+    font-size: large;
+    font-weight: 750;
+}
+
+/*NAV list colors - ALL 4x PAGES*/
+.navCol {
+    color: #616A6B;
+    font-weight: 650;
+}
+
+/*Change color whenhover over NAV - ALL 4x PAGES*/
+.navCol:hover {
+    background-color: #AEB6BF;
+    color: #ECF0F1;
+}
+
+
+/* Indent the headings - ALL 4x PAGES*/
+#HeadName1 {
+    text-indent: 70px;
+    font-size: 80px;
+}
+
+#HeadName2 {
+    text-indent: 450px;
+    font-size: 50px;
+}
+
+/* Page intruductions all using h1 - ALL 4x PAGES*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 3px 10px #76767a;
+    text-align: center;
+    background-color: #dcf0dc;
+    padding: 1%;
+}
+
+/*Footer will be  background image - ALL 4x PAGES*/
+footer {
+    width: 100%;
+    height: 4%;
+    background-color: #c0eee6;
+    padding: 1%;
+    border-bottom: solid #85929E;
+    box-shadow: 4px 3px #c5d4e2;
+}
+
+/* Table formatiing for the home page article - HOME PAGE*/
+.wedVenus {
+    box-shadow: 5px 5px #a4e0d6;
+    border-radius: 25px;
+}
+
+/*the news article formating  - HOME PAGE*/
+.news {
+    color: grey;
+    text-align: center;
+    padding: 1%;
+}
+
+/* to add padding to and all images content - ALL 4x PAGES*/
+.pad {
+    padding: 3%;
+}
+
+/*the aside artical - HOME PAGE*/
+.article {
+    border: solid thin #ABB2B9;
+    padding: 1% 1% 1% 1%;
+    background-color: #eaf1f5;
+}
+
+/*aside articles highlight text - HOME PAGE*/
+.sideatr {
+    background-color: #c9cfd4;
+    padding: 1%;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Unique format table header- Home PAGE*/
+th {
+    border-bottom: solid thick green;
+    background: rgb(152, 221, 218);
+}
+
+/* Change table rows background colors - Home PAGE*/
+tr:nth-child(odd) {
+    background-color: rgb(240, 248, 248);
+}
+
+/*Border for the customer testimonies - ABOUT page*/
+.testimony {
+    border: darkslategray solid thin;
+}
+
+/*Image for the form contol - MEETING page*/
+.imgFloat {
+    opacity: 0.7;
+    float: right;
+    padding: 1%;
+}
+
+/* Format the bullet point list - MEETING page*/
+ul {
+    list-style-type: square;
+}
+
+/* Format the lables on the data input form - MEETING page*/
+/*Format the form*/
+form {
+    border-left: solid thin #cdd4db;
+    border-bottom: solid thin #cdd4db;
+    padding: 2%;
+}
+
+/* on the forms - to align the inout boxes with the lable content*/
+lable {
+    font-weight: 600;
+    float: left;
+    width: 10em;
+    margin-right: 5px;
+   
+}
+
+/* Float submit button on form - MEETING page*/
+.submit {
+    padding: 2%;
+    color: snow;
+    background-color: rgb(20, 93, 153);
+    border: rgb(20, 93, 153);
+    font-weight: 600;
+    margin-left: 10em;
+}
+
+
+/*Format the radio button list backgound*/
+fieldset {
+    border-left: solid thin #cdd4db;
+    border-bottom: solid thin #cdd4db;
+    padding: 2%;
+    text-indent: 1%;
+}
+
+/*Format the radio button list indeting*/
+.radio {
+    text-indent: 10%;
+}
+
+/*Image color filter*/
+.imgColFil {
+    filter: grayscale(100%);
+    border: #cce2cc thick solid;
+}
+ 
+/* Expand images when hovering over - use transformation - All images*/
+.enlarge:hover{
+    transform: scale(1.5);
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+/* Animations to transition from one color to another*/
+p:hover{
+    animation: change-color 0.3s forwards;
+}
+
+@keyframes change-color{
+    to{
+        background: #def3ec;
+    }
+}
+
+/* Remove the blue from the heading linked <a> */
+h4 {
+    color: black;
+}
+
+ /*remove the checkbox graphic from Catalge page*/
+input[type='checkbox'] {
+    display: none;
+}
+
+/*Format the lables */
+.label {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* to make a thin box around each item on catelogue*/
+.itemDivBox {
+    border-bottom: solid thin #c5cfdb;
+    border-top: solid thin #c5cfdb;
+    border-left: solid thin #c5cfdb;
+    border-radius: 5%;
+    box-shadow: #a4e0d6;
+    
+}
+
+
+/* New Cart page - Button */
+.right{
+    float: right;
+    clear: both;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+}
+
+/* Cart Images */
+.cartImg {
+    opacity: 0.4;
+    filter: grayscale(70%);
+}
+
+/*Styling the delivery rop down select box*/
+select {
+    padding: 1%;
+    border-radius: 10%;
+    font-weight: 600;
+    border-color: #ABB2B9;
+}
+
+select:hover {
+    background-color:mediumaquamarine;
+    color: gray;
+    font-weight: 700;
+}
+
+/*Styling the delivery rop down options*/
+option {
+    padding: 1%;
+    font-weight: 500;
+    background-color: #cce2cc;
+}
+
+/* Cart items - the headings */
+.cartHeading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border-bottom: solid thin black;
+}
+ 
+/* cart check out - confirm quantity */
+.quantityInput {
+    width: 70px;
+    border: thin solid gray;
+    padding: 1%;
+}
+
+/* add a line at the top of the Div to seperate the Total*/
+#TotalDiv, #discountSum, #deliveryDiv {
+    border-top: solid thin gray;
+    border-bottom: solid thin gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.itemPriceSpan {
+    padding: 1%;
+    margin-right: 10%;
+    float: left;
+    font-weight: 600;
+}
+
+.itemPriceSpanModal {
+   margin-right: 25%;
+   font-weight: 600;
+}
+
+/* Style the DIV box for the modal*/
+.divBox {
+    padding: 3%;
+}

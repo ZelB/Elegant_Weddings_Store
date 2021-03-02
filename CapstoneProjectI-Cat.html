@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Used the latest Bootstrap online CSS link reference -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Wedding Decor Store CATAGORY</title>
+
+</head>
+
+<body>
+    <!--Page header-->
+    <header id="CompHed">
+        <!--add an image as Logo -->
+        <img src="Web-Images/GreenBack.jpg" class="float-left logo enlarge" alt="Green Logo" width="270" height="200">
+
+        <p id="HeadName1">Elegant Weddings</p>
+        <p id="HeadName2">Decor Shop</p>
+
+    </header>
+
+    <!--Navigation-->
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item ">
+            <a class="nav-link navCol" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link navCol navActive" href="CapstoneProjectI-Cat.html">Catalogue</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navCol" href="CapstoneProjectI-About.html">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navCol" href="CapstoneProjectI-Booking.html">Schedule Meeting</a>
+        </li>
+    </ul>
+    <br>
+
+    <!--Cataloque Page-->
+    <h1>CATALOGUE</h1>
+
+    <!-- a button to go to the check out cart-->
+    <a href="cart.html" class="btn btn-primary btn-lg active btn-info right" role="button" aria-pressed="true" id="cartBtn">Go To
+        Cart</a>
+    <br>
+
+    <!--Grid to display 3 items per row-->
+
+    <!--First Grid row to display items 1 through 3-->
+    <div class="row pad">
+        <!--Display item 1 in row 1-->
+        <div class="col-md-4 col-sm-6 itemDivBox">
+            <!--Opens link to Modal html page-->
+            <a data-toggle="modal" id="BouquetsModalClick" data-target="#BouquetsModal">
+                <h4 class="blockquote itemTitle">Bouquets</h4>
+                <img src="Cat-Images/Bouquets.jpg" class="img-thumbnail img-fluid rounded-circle pad enlarge quickAddPic"
+                    alt="Bouquets" />
+                <br>
+            </a>
+            <!-- A Quick Add to Cart function-->
+            <span class="itemPriceSpan">R 850.00</span>
+            <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+            <br>
+
+
+            <!-- The Bride Bouquets Modal -->
+            <div id="BouquetsModal" class="modal" tabindex="-1" aria-hidden="true" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content divBox">
+                        <h2 class="itemTitleModal divBox">Bouquets</h2>
+                        <!--Close button for modal-->
+                        <button type="button" class="btn btn-secondary right" data-dismiss="modal">Close</button>
+                        <!-- The Bouquets Modal body-->
+                        <span> A lovely set of 4x braidsmaids bouquets made from read flowers.</span>
+                        <p class="divBox">
+                            <ul>
+                                <li><b>Unit Details:</b> The Set is totaling at R 850.00 excl VAT.</li>
+                                <li><b>Lead Time:</b> Delivery may take up to 3 weeks. </li>
+                            </ul>
+                        </p>
+                        <!-- The Bouquets Modal image of item-->
+                        <img src="Cat-Images/Bouquets.jpg" class="img-thumbnail img-fluid rounded pad imgCart"
+                            alt="Bouquets" />
+
+                        <div class="modal-footer">
+                            <!-- The Bouquets Modal footer for buttons, adding "Add to cart" options via JS-->
+                            <!-- Add to cart from the modal page-->
+                            <span class="itemPriceSpanModal">R 850.00</span>
+                            <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Display item 2 in row 1-->
+        <div class="col-md-4 col-sm-6 itemDivBox">
+            <!--Opens link to Modal html page-->
+            <a data-toggle="modal" id="chairDecorModalClick" data-target="#chairDecorModal">
+                <h4 class="blockquote itemTitle">Bride and Groom Chair Decor</h4>
+
+                <img src="Cat-Images/ChairDecor.jpg" class="img-thumbnail img-fluid rounded-circle pad enlarge quickAddPic"
+                    alt="ChairDecor" />
+                <br>
+            </a>
+            <!-- A Quick Add to Cart function-->
+            <span class="itemPriceSpan">R 655.00</span>
+            <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+            <br>
+
+
+            <!-- The Bride & Groom Chair Decor Modal -->
+            <div id="chairDecorModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content divBox">
+                        <!--Close button for modal-->
+                        <button type="button" class="btn btn-secondary right" data-dismiss="modal">Close</button>
+                        <h2 class="itemTitleModal divBox">Chair Decoration</h2>
+                        <!-- The Bride & Groom Chair Decor Modal body with info-->
+                        <span>Bride & Groom's chair decoration: "Forever" & "Always"</span>
+                        <br>
+                        <p class="divBox">
+                            <ul>
+                                <li><b>Unit Details:</b> 1x "Forever" & 1x "Always" chair decoration incl
+                                    flowers.</li>
+                                <li><b>Price:</b> At R 655.00 excl VAT for the set. </li>
+                        </p>
+                        </ul>
+                        <!-- The Bride & Groom Chair Decor Modal picture of product-->
+                        <img src="Cat-Images/ChairDecor.jpg" class="img-thumbnail img-fluid rounded pad imgCart"
+                            alt="ChairDecor" />
+
+                        <!-- The Chair Decor Modal footer for buttons, adding "Add to cart" options via JS-->
+                        <div class="modal-footer">
+                            <!-- Add to cart from the modal page-->
+                            <span class="itemPriceSpanModal">R 655.00</span>
+                            <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Display item 3 in row 1-->
+        <div class="col-md-4 col-sm-6 itemDivBox">
+            <!-- Link the modal reference-->
+            <a data-toggle="modal" id="churchChairModalClick" data-target="#churchChairModal">
+
+                <h4 class="blockquote itemTitle">Church Chair Decoration</h4>
+                <img src="Cat-Images/ChurchDecor.jpg" class="img-thumbnail img-fluid rounded-circle pad enlarge quickAddPic"
+                    alt="ChurchDecor" />
+                <br>
+            </a>
+            <!-- A Quick Add to Cart function-->
+            <span class="itemPriceSpan">R 50.00</span>
+            <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+            <br>
+
+            <!-- The Church Chair Decor Modal -->
+            <div id="churchChairModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <!--Close button for modal-->
+                            <button type="button" class="btn btn-secondary right" data-dismiss="modal">Close</button>
+                            <h2 class="itemTitleModal">Church Chair Decoration</h2>
+                        </div>
+                        <!-- The  Chair Decor Decor Modal body with info-->
+                        <div class="modal-body">
+                            <div class="panel-heading text-center">
+                                Flower in class jar decorations for the Church service
+                            </div>
+                            <br>
+                            <div>
+                                <p>
+                                    <ul>
+                                        <li><b>Unit Details:</b> 1x Glass container with white flowers inside. Tied to
+                                            the chapel chair with brown rope.</li>
+                                        <li><b>Price:</b> At R 50.00 excl VAT per unit.</li>
+                                </p>
+                                </ul>
+                                <!-- The B Chair DecorDecor Modal picture of product-->
+                                <img src="Cat-Images/ChurchDecor.jpg"
+                                    class="img-thumbnail img-fluid rounded pad imgCart" alt="ChurchDecor" />
+                            </div>
+                        </div>
+                        <!-- The Chair Decor Modal footer for buttons, adding "Add to cart" options via JS-->
+                        <div class="modal-footer">
+                            <!-- Add to cart from the modal page-->
+                            <span class="itemPriceSpanModal">R 50.00</span>
+                            <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <br>
+
+    <!--Second Grid row to display items 4 through 6-->
+    <div class="row pad">
+        <!--Display item 4 in row 2-->
+        <div class="col-md-4 col-sm-6 itemDivBox">
+            <!-- Link for Modal loader-->
+            <a data-toggle="modal" id="confettiModalClick" data-target="#confettiModal">
+                <h4 class="blockquote itemTitle">Confetti and holder</h4>
+                <img src="Cat-Images/ConfettiSet.jpg"
+                    class="img-thumbnail img-fluid rounded-circle pad mx-auto d-block enlarge quickAddPic" alt="ConfettiSet" />
+                <br>
+            </a>
+            <!-- A Quick Add to Cart function-->
+            <span class="itemPriceSpan">R 50.00</span>
+            <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+            <br>
+
+            <!-- The Confetti Modal -->
+            <div id="confettiModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <!--Close button for modal-->
+                            <button type="button" class="btn btn-secondary right" data-dismiss="modal">Close</button>
+                            <h2 class="itemTitleModal">Confetti & Holder</h2>
+                        </div>
+                        <!-- The Confetti Modal body with info-->
+                        <div class="modal-body">
+                            <div class="panel-heading text-center">
+                                Confetti including the holder (10 units)
+                            </div>
+                            <br>
+                            <div>
+                                <p>
+                                    <ul>
+                                        <li><b>Unit Details:</b> Carton holder with bride & groom's name on, incuding
+                                            the date and image. Comes
+                                            with confetti</li>
+                                        <li><b>Price:</b> At R 50.00 for 10 units excl VAT.</li>
+                                </p>
+                                </ul>
+                                <!-- The Confetti Modal picture of product-->
+                                <img src="Cat-Images/ConfettiSet.jpg"
+                                    class="img-thumbnail img-fluid rounded pad mx-auto d-block imgCart"
+                                    alt="ConfettiSet" />
+                            </div>
+                        </div>
+                        <!-- The Confetti Modal footer for buttons, adding "Add to cart" options via JS-->
+                        <div class="modal-footer">
+                            <!-- Add to cart from the modal page-->
+                            <span class="itemPriceSpanModal">R 50.00</span>
+                            <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+        </div>
+
+        <!--Display item 5 in row 2-->
+        <div class="col-md-4 col-sm-6 itemDivBox">
+            <!--Create link to modal-->
+            <a data-toggle="modal" id="doorDecorModalClick" data-target="#doorDecorModal">
+                <h4 class="blockquote itemTitle">Door Decoration</h4>
+                <img src="Cat-Images/DoorDecor.jpg"
+                    class="img-thumbnail img-fluid rounded-circle pad mx-auto d-block activePic enlarge quickAddPic"
+                    alt="DoorDecor" />
+                <br>
+            </a>
+            <!-- A Quick Add to Cart function-->
+            <span class="itemPriceSpan">R 200.00</span>
+            <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+            <br>
+
+
+            <!-- The Door Decoration Modal -->
+            <div id="doorDecorModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <!--Close button for modal-->
+                            <button type="button" class="btn btn-secondary right" data-dismiss="modal">Close</button>
+                            <h2 class="itemTitleModal">Door Decoration</h2>
+                        </div>
+                        <!-- The Door Decoration Modal body with info-->
+                        <div class="modal-body">
+                            <div class="panel-heading text-center">
+                                Church or Deception Door Decoration - Flowers and words
+                            </div>
+                            <br>
+                            <div>
+                                <p>
+                                    <ul>
+                                        <li><b>Unit Details:</b> 1x set of Chapel door decorations. "It was always you"
+                                            in plastic including 2x set of flower arrangements.</li>
+                                        <li><b>Price:</b> At R 200.00 per set excl VAT .</li>
+                                </p>
+                                </ul>
+                                <!-- The Door Decoration Modal picture of product-->
+                                <img src="Cat-Images/DoorDecor.jpg"
+                                    class="img-thumbnail img-fluid rounded pad mx-auto d-block activePic imgCart"
+                                    alt="DoorDecor" />
+                            </div>
+                        </div>
+                        <!-- The Door Decoration Modal footer for buttons, adding "Add to cart" options via JS-->
+                        <div class="modal-footer">
+                            <!-- Add to cart from the modal page-->
+                            <span class="itemPriceSpanModal">R 200.00</span>
+                            <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Display item 6 in row 2-->
+        <div class="col-md-4 col-sm-6 itemDivBox">
+            <!-- Link the Farm Theme modal-->
+            <a data-toggle="modal" id="farmThemeModalClick" data-target="#farmThemeModal">
+                <h4 class="blockquote itemTitle">Farm Table Theme </h4>
+                <img src="Cat-Images/TablesFarm.jpg"
+                    class="img-thumbnail img-fluid rounded-circle pad mx-auto d-block enlarge quickAddPic" alt="TablesFarm" />
+                <br>
+            </a>
+            <!-- A Quick Add to Cart function-->
+            <span class="itemPriceSpan">R 95.00</span>
+            <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+            <br>
+
+            <!-- The Farm Theme Table Decor Modal -->
+            <div id="farmThemeModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <!--Close button for modal-->
+                            <button type="button" class="btn btn-secondary right" data-dismiss="modal">Close</button>
+                            <h2 class="itemTitleModal">Farm themed table setting</h2>
+                        </div>
+                        <!-- The Farm Theme Table Decor Modal body with info-->
+                        <div class="modal-body">
+                            <div class="panel-heading text-center">
+                                Farm themed complete table set
+                            </div>
+                            <br>
+                            <div>
+                                <p>
+                                    <ul>
+                                        <li><b>Unit Details:</b> 1x set of a Farm themed table setting including welcome
+                                            gift
+                                            wrapped in check cloth, table flowes, glassware. </li>
+                                        <li><b>Price:</b> At R 95.00 per person excl VAT.</li>
+                                </p>
+                                </ul>
+                                <!-- The Farm Theme Table Decor Modal picture of product-->
+                                <img src="Cat-Images/TablesFarm.jpg"
+                                    class="img-thumbnail img-fluid rounded pad mx-auto d-block imgCart"
+                                    alt="TablesFarm" />
+
+                            </div>
+                        </div>
+                        <!-- The Farm Theme Table Decor Modal footer for buttons, adding "Add to cart" options via JS-->
+                        <div class="modal-footer">
+                            <!-- Add to cart from the modal page-->
+                            <span class="itemPriceSpanModal">R 95.00</span>
+                            <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+        <!--Third Grid row to display items 7 through 9-->
+        <div class="row pad">
+            <!--Display item 7 in row 3-->
+            <div class="col-md-4 col-sm-6 itemDivBox">
+                <!-- Create a link to the Baools Modal-->
+                <a data-toggle="modal" id="baloonsModalClick" data-target="#baloonsModal">
+                    <h4 class="blockquote itemTitle">Baloons</h4>
+                    <img src="Cat-Images/Baloons.jpg"
+                        class="img-thumbnail img-fluid rounded-circle pad mx-auto d-block enlarge quickAddPic" alt="Baloons" />
+                    <br>
+                </a>
+                <!-- A Quick Add to Cart function-->
+                <span class="itemPriceSpan">R 180.00</span>
+                <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+                <br>
+
+
+                <!-- The Baloons Decor Modal -->
+                <div id="baloonsModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <!--Close button for modal-->
+                                <button type="button" class="btn btn-secondary right"
+                                    data-dismiss="modal">Close</button>
+                                <h2 class="itemTitleModal">Baloons</h2>
+                            </div>
+                            <!-- The Baloons Modal body with info-->
+                            <div class="modal-body">
+                                <div class="panel-heading text-center">
+                                    Floating Baloons (3x colours)
+                                </div>
+                                <br>
+                                <div>
+                                    <p>
+                                        <ul>
+                                            <li><b>Unit Details:</b>40 Baloons available in 3x different colours upon
+                                                request.
+                                                Can inflate to different sizes. </li>
+                                            <li><b>Price:</b> At R 180.00 for 40 baloons excl VAT</li>
+                                    </p>
+                                    </ul>
+                                    <!-- The Baloons Modal picture of product-->
+                                    <img src="Cat-Images/Baloons.jpg"
+                                        class="img-thumbnail img-fluid rounded pad mx-auto d-block imgCart"
+                                        alt="Baloons" />
+
+                                </div>
+                            </div>
+                            <!-- The Baloons Modal footer for buttons, adding "Add to cart" options via JS-->
+                            <div class="modal-footer">
+                                <!-- Add to cart from the modal page-->
+                                <span class="itemPriceSpanModal">R 180.00</span>
+                                <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Display item 8 in row 3-->
+            <div class="col-md-4 col-sm-6 itemDivBox">
+                <!-- Create link to display guest bookmodal-->
+                <a data-toggle="modal" id="guestBookModalClick" data-target="#guestBookModal">
+                    <h4 class="blockquote itemTitle">Guest Book</h4>
+                    <img src="Cat-Images/GuestBook.jpg"
+                        class="img-thumbnail img-fluid rounded-circle pad mx-auto d-block enlarge quickAddPic" alt="GuestBook" />
+                    <br>
+                </a>
+                <!-- A Quick Add to Cart function-->
+                <span class="itemPriceSpan">R 230.00</span>
+                <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+                <br>
+
+
+                <!-- The Guest Book Decor Modal -->
+                <div id="guestBookModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <!--Close button for modal-->
+                                <button type="button" class="btn btn-secondary right"
+                                    data-dismiss="modal">Close</button>
+                                <h2 class="itemTitleModal">Guest Book</h2>
+                            </div>
+                            <!-- The Guest Book Modal body with info-->
+                            <div class="modal-body">
+                                <div class="panel-heading text-center">
+                                    Leather covered Guest Book
+                                </div>
+                                <br>
+                                <div>
+                                    <p>
+                                        <ul>
+                                            <li><b>Unit Details:</b>1x Guest Book with 60 pages. Leather cover. Can
+                                                customize cover page.</li>
+                                            <li><b>Price:</b> At R 230.00 excl VAT</li>
+                                    </p>
+                                    </ul>
+                                    <!-- The Guest Book Modal picture of product-->
+                                    <img src="Cat-Images/GuestBook.jpg"
+                                        class="img-thumbnail img-fluid rounded pad mx-auto d-block imgCart"
+                                        alt="GuestBook" />
+
+                                </div>
+                            </div>
+                            <!-- The Guest Book Modal footer for buttons, adding "Add to cart" options via JS-->
+                            <div class="modal-footer">
+                                <!-- Add to cart from the modal page-->
+                                <span class="itemPriceSpanModal">R 230.00</span>
+                                <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Display item 9 in row 3-->
+            <div class="col-md-4 col-sm-6 itemDivBox">
+                <!-- Create link to display Gust Gift modal-->
+                <a data-toggle="modal" id="bbGiftModalClick" data-target="#bbGiftModal">
+                    <h4 class="blockquote itemTitle">Bear & Box guest gifts </h4>
+                    <img src="Cat-Images/Bear&Box.jpg"
+                        class="img-thumbnail img-fluid rounded-circle pad mx-auto d-block enlarge quickAddPic" alt="Bear&Box" />
+                    <br>
+                </a>
+                <!-- A Quick Add to Cart function-->
+                <span class="itemPriceSpan">R 125.00</span>
+                <button type="button" class="btn btn-info right quickAddToCartBtn">Add to Cart</button>
+                <br>
+
+
+                <!-- The Bear & Box guest gifts Modal -->
+                <div id="bbGiftModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <!--Close button for modal-->
+                                <button type="button" class="btn btn-secondary right"
+                                    data-dismiss="modal">Close</button>
+                                <h2 class="itemTitleModal">Bear & Box guest gifts </h2>
+                            </div>
+                            <!-- The Bear & Box guest gifts Modal body with info-->
+                            <div class="modal-body">
+                                <div class="panel-heading text-center">
+                                    1x Bear & 1x Box Chocolates Guest Gifts
+                                </div>
+                                <br>
+                                <div>
+                                    <p>
+                                        <ul>
+                                            <li><b>Unit Details:</b> 1x set of Bear & Box guest gifts.
+                                                Includes 1x soft teddy and 1x carton box with Lindt chocolates.</li>
+                                            <li><b>Price:</b> At R 125.00 per set excl VAT </li>
+                                    </p>
+                                    </ul>
+                                    <!-- The Bear & Box guest gifts Modal picture of product-->
+                                    <img src="Cat-Images/Bear&Box.jpg"
+                                        class="img-thumbnail img-fluid rounded pad mx-auto d-block imgCart"
+                                        alt="Bear&Box" />
+
+                                </div>
+                            </div>
+                            <!-- The Bear & Box guest gifts Modal footer for buttons, adding "Add to cart" options via JS-->
+                            <div class="modal-footer">
+                                <!-- Add to cart from the modal page-->
+                                <span class="itemPriceSpanModal">R 125.00</span>
+                                <button type="button" class="btn btn-info addToCartModal">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+            </div>
+            <br>
+        </div>
+        <br>
+
+        <footer>
+
+        </footer>
+
+        <!-- jQueary links for the modal pages-->
+        <script language="JavaScript" type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Linking my own JavaScript -->
+        <script language="JavaScript" type="text/javascript" src="JavaScript-File/CapstoneProjectII.js"></script>
+
+
+        <!-- Bootstrap JS links for the modal pages-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+
+        <!--Link own CSS Styles-->
+        <link href="CSS-File/CapstoneProjectIStyle.css" rel="stylesheet" type="text/CSS" async>
+
+</body>
+
+</html>
