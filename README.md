@@ -1,7 +1,6 @@
-# Elegant_Weddings_Store
-Online fictitious Website
-
 # **Elegant Weddings Decor Store**
+Online fictitious website where users shop for wedding decorations
+
 ## **1. Project Description**
 We supply an online portal to assist weddin parties with all the decorations.
 
@@ -53,25 +52,25 @@ Please click on the URL and open the page in a web browser (eg. Chrome, Firefox,
 ###### Catalogue Page:
 Go to the *Catalogue Page*. You can browse through all the items and click on the “Add to cart” to add your selected items.
 
-![GitHub Catalogue](https://github.com/ZelB/ElegantWeddingsStore/blob/main/Catalogue1.png)
+![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/Catalogue1.png)
 	
-![GitHub Catalogue](https://github.com/ZelB/ElegantWeddingsStore/blob/main/GoToCart.png)
+![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/GoToCart.png)
 
 ###### Cart Page:
 After you have selected your items from the catalogue page, you click on the “Go to cart” button. This will take you to the Cart page. 
 1. Here you have an overview of all your products and can adjust the volumes required. 
-	*![GitHub Catalogue](https://github.com/ZelB/ElegantWeddingsStore/blob/main/CartSubtotal.png)
+	*![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/CartSubtotal.png)
 	
 2. Enter a discount coupon if applicable
-	*![GitHub Catalogue](https://github.com/ZelB/ElegantWeddingsStore/blob/main/CartDiscount.png)
+	*![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/CartDiscount.png)
 	
 3. Choose if you would like to collect or have the products delivered
 
 4. If you choose delivery – please choose the preferred shipping method
-	*![GitHub Catalogue](https://github.com/ZelB/ElegantWeddingsStore/blob/main/Shipping.png)
+	*![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/Shipping.png)
 	
 5. Click on the “Check out” button for an order reference number
-	*![GitHub Catalogue](https://github.com/ZelB/ElegantWeddingsStore/blob/main/ConfirmOrder.png
+	*![GitHub Catalogue]( https://github.com/ZelB/Elegant_Weddings_Store/blob/master/Instructions-Screenshots/ConfirmOrder.png
 	
 
 ### ***8. Credits***
